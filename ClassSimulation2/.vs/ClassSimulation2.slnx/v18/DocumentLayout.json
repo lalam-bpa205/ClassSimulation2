@@ -1,0 +1,530 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\controllers\\membercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\controllers\\positioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\viewmodels\\member\\updatemembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\viewmodels\\member\\updatemembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\viewmodels\\member\\createmembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\viewmodels\\member\\createmembervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\viewmodels\\position\\createpositionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\viewmodels\\position\\createpositionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:models\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\member\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\member\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\utilities\\fileuploadextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:utilities\\fileuploadextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\position\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\position\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\position\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\position\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\position\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\position\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\viewmodels\\position\\updatepositionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\viewmodels\\position\\updatepositionvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:dal\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:models\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|c:\\users\\novbe2\\source\\repos\\classsimulation2\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{70CBD2DD-453F-4EF1-8F82-3A8BB54BCA04}|ClassSimulation2.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateMemberVM.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Member\\UpdateMemberVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\Member\\UpdateMemberVM.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Member\\UpdateMemberVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\Member\\UpdateMemberVM.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:17:34.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MemberController.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\MemberController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MemberController.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\MemberController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\MemberController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:47:50.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PositionController.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\PositionController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\PositionController.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\PositionController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\PositionController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:14:20.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:18:42.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:18:49.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Details.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:27:28.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateMemberVM.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Member\\CreateMemberVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\Member\\CreateMemberVM.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Member\\CreateMemberVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\Member\\CreateMemberVM.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T12:17:20.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreatePositionVM.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Position\\CreatePositionVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\Position\\CreatePositionVM.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Position\\CreatePositionVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\Position\\CreatePositionVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:18:22.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Member.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Member.cs",
+              "RelativeDocumentMoniker": "Models\\Member.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Member.cs",
+              "RelativeToolTip": "Models\\Member.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:20:35.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Member\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:15:53.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Member\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T12:15:33.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileUploadExtension.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Utilities\\FileUploadExtension.cs",
+              "RelativeDocumentMoniker": "Utilities\\FileUploadExtension.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Utilities\\FileUploadExtension.cs",
+              "RelativeToolTip": "Utilities\\FileUploadExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:48:12.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Update.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Position\\Update.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Update.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Position\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T11:22:08.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Position\\Create.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Position\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T11:21:50.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Position\\Index.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Position\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Position\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T11:14:38.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UpdatePositionVM.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Position\\UpdatePositionVM.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\ViewModels\\Position\\UpdatePositionVM.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\ViewModels\\Position\\UpdatePositionVM.cs",
+              "RelativeToolTip": "Areas\\Admin\\ViewModels\\Position\\UpdatePositionVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T11:21:10.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:58:38.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:59:41.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:59:59.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:58:02.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAAwHIAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:57:50.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-02T10:47:30.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:29:26.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:10:09.602Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:10:49.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Position.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "Models\\Position.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Position.cs",
+              "RelativeToolTip": "Models\\Position.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:20:52.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\DAL\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "DAL\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\DAL\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "DAL\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:15:25.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\AppUser.cs",
+              "RelativeToolTip": "Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:15:53.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Models\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\Base\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T10:12:55.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-02T10:10:32.237Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
