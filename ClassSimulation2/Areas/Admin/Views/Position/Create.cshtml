@@ -1,10 +1,10 @@
 ﻿@model CreatePositionVM
 <div>
+    <h2>Create Position</h2>
     <form asp-controller="Position" asp-action="Create" method="post">
-        <h2>Create Position</h2>
         <div class="form-group">
             <label for="exampleInputEmail1">Name</label>
-            <input asp-for="Name"  type="text" class="form-control" id="exampleInputEmail1"  placeholder="Enter name">
+            <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
             <span class="text-danger" asp-validation-for="Name"></span>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>

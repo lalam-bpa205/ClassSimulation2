@@ -22,7 +22,7 @@ namespace ClassSimulation2.Areas.Admin.ViewModels.Member
 
         [Required(ErrorMessage = "PositionId is required...")]
         public int PositionId { get; set; }
-        public string ImageUrl { get; set; }
+        public string? ImageUrl { get; set; }
         public IFormFile ImageFile { get; set; }
     }
 }

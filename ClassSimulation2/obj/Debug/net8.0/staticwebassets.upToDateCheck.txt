@@ -1878,3 +1878,6 @@ wwwroot\assets\js\jquery.js
 wwwroot\assets\js\jquery.singlePageNav.min.js
 wwwroot\assets\js\typed.js
 wwwroot\assets\js\wow.min.js
+wwwroot\uploads\members\30a3fe36-bce9-4383-870e-3124dc081334_1500x1200px-sinsilla-pisiyi.jpg
+wwwroot\uploads\members\5bf20341-0892-48fe-8c42-27945c00c4c2_1500x1200px-sinsilla-pisiyi.jpg
+wwwroot\uploads\members\b3f0f270-c837-45e0-914c-9c4e05a0ef15_1500x1200px-sinsilla-pisiyi.jpg

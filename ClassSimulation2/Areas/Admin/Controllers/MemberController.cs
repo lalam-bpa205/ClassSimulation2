@@ -2,12 +2,14 @@
 using ClassSimulation2.DAL.Context;
 using ClassSimulation2.Models;
 using ClassSimulation2.Utilities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClassSimulation2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class MemberController : Controller
     {
         private readonly AppDbContext _db;
@@ -37,10 +39,10 @@ namespace ClassSimulation2.Areas.Admin.Controllers
             if (!ModelState.IsValid) return View(memberVM);
             if (memberVM.ImageFile is null)
             {
-                ModelState.AddModelError("ImageFile", "File is required");
+                ModelState.AddModelError("ImageFile", "ImageFile is required");
                 return View();
             }
-            if (memberVM.ImageFile.ContentType.Contains("image/"))
+            if (!memberVM.ImageFile.ContentType.Contains("image/"))
             {
                 ModelState.AddModelError("ImageFile", "File must be an image");
                 return View();
@@ -50,13 +52,13 @@ namespace ClassSimulation2.Areas.Admin.Controllers
                 ModelState.AddModelError("ImageFile", "File cannot be exceed 2MB");
                 return View();
             }
-            Member? member = new Member()
+            Member member = new Member()
             {
                 Name = memberVM.Name,
                 Surname = memberVM.Surname,
                 Description = memberVM.Description,
                 PositionId = memberVM.PositionId,
-                ImageUrl = memberVM.ImageFile.SaveImage(_env, "uploads/members")
+                ImageUrl = memberVM.ImageFile.SaveImage(_env,"uploads/members")
             };
             await _db.Members.AddAsync(member);
             await _db.SaveChangesAsync();
@@ -65,11 +67,9 @@ namespace ClassSimulation2.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(int? id)
         {
-            ViewBag.Positions = await _db.Positions.ToListAsync();
+
             if (id is null) return NotFound();
-            Member? member = await _db.Members
-                .Include(m => m.Position)
-                .FirstOrDefaultAsync(m => m.Id == id);
+            Member? member = await _db.Members.FindAsync(id);
             if (member is null) return NotFound();
             member.IsDeleted = true;
             await _db.SaveChangesAsync();
@@ -78,13 +78,61 @@ namespace ClassSimulation2.Areas.Admin.Controllers
         [HttpPost]
         public async Task<IActionResult> Restore(int? id)
         {
+
+            if (id is null) return NotFound();
+            Member? member = await _db.Members.FindAsync(id);
+            if (member is null) return NotFound();
+            member.IsDeleted = false;
+            await _db.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+        public async Task<IActionResult>Update(int? id)
+        {
             ViewBag.Positions = await _db.Positions.ToListAsync();
             if (id is null) return NotFound();
             Member? member = await _db.Members
                 .Include(m => m.Position)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            if (member is null) return NotFound();
-            member.IsDeleted = false;
+            if(member is null) return NotFound();
+            UpdateMemberVM memberVM = new UpdateMemberVM()
+            {
+                Name=member.Name,
+                Surname=member.Surname,
+                Description=member.Description,
+                PositionId=member.PositionId,
+                ImageUrl=member.ImageUrl,
+            };
+            return View(memberVM);
+        }
+        [HttpPost]
+        public async Task<IActionResult>Update(UpdateMemberVM memberVM)
+        {
+            ViewBag.Positions = await _db.Positions.ToListAsync();
+            if (!ModelState.IsValid) return View(memberVM);
+            if (memberVM.ImageFile is null)
+            {
+                ModelState.AddModelError("ImageFile", "ImageFile is required");
+                return View();
+            }
+            if (!memberVM.ImageFile.ContentType.Contains("image/"))
+            {
+                ModelState.AddModelError("ImageFile", "File must be an image");
+                return View();
+            }
+            if (memberVM.ImageFile.Length > 2 * 1024 * 1024)
+            {
+                ModelState.AddModelError("ImageFile", "File cannot be exceed 2MB");
+                return View();
+            }
+            Member? oldMember = await _db.Members
+                .Include(m => m.Position)
+                .FirstOrDefaultAsync(m => m.Id == memberVM.Id);
+             if (oldMember is null) return NotFound();
+            oldMember.Name=memberVM.Name;
+            oldMember.Surname=memberVM.Surname;
+            oldMember.Description=memberVM.Description;
+            oldMember.PositionId=memberVM.PositionId;
+            oldMember.ImageUrl = memberVM.ImageFile.SaveImage(_env,"uploads/members");
             await _db.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }

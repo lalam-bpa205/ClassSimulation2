@@ -1,12 +1,14 @@
 ﻿using ClassSimulation2.Areas.Admin.ViewModels.Position;
 using ClassSimulation2.DAL.Context;
 using ClassSimulation2.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace ClassSimulation2.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = "Admin")]
     public class PositionController : Controller
     {
         private readonly AppDbContext _db;

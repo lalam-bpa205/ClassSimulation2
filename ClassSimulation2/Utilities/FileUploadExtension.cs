@@ -8,11 +8,11 @@
             string fileName=Guid.NewGuid().ToString() + "_" + imageFile.FileName;
             string fullPath=Path.Combine(path, fileName);
 
-            if(Directory.Exists(path))
+            if(!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
             }
-            using(FileStream stream=new FileStream(fileName, FileMode.Create))
+            using(FileStream stream=new FileStream(fullPath, FileMode.Create))
             {
                 imageFile.CopyTo(stream);
             }

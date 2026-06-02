@@ -1,5 +1,39 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model CreateMemberVM
+<div>
+    <h2>Create Member</h2>
+    <form asp-controller="Member" asp-action="Create" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="exampleInputEmail1">Name</label>
+            <input asp-for="Name" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter name">
+            <span class="text-danger" asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Surname</label>
+            <input asp-for="Surname" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter surname">
+            <span class="text-danger" asp-validation-for="Surname"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Description</label>
+            <input asp-for="Description" type="text" class="form-control" id="exampleInputEmail1" placeholder="Enter description">
+            <span class="text-danger" asp-validation-for="Description"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Select</label>
+            <select asp-for="PositionId" class="form-select" aria-label="Default select example">
+                <option selected disabled>Open this select menu</option>
+                @foreach (Position position in ViewBag.Positions)
+                {
+                    <option value="@position.Id">@position.Name</option>
+                }
+            </select>
+            <span class="text-danger" asp-validation-for="PositionId"></span>
+        </div>
+        <div class="input-group mb-3">
+            <input  asp-for="ImageFile" type="file" class="form-control" id="inputGroupFile02">
+            <label class="input-group-text" for="inputGroupFile02">Select Image</label>
+            <span class="text-danger" asp-validation-for="ImageFile"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+

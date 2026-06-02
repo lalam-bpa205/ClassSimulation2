@@ -1,5 +1,61 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Member>
+<div>
+	<a class="btn btn-primary" asp-controller="Member" asp-action="Create">Create</a>
+	<table class="table">
+		<thead>
+			<tr>
+				<th scope="col">Id</th>
+				<th scope="col">Name</th>
+				<th scope="col">Surname</th>
+				<th scope="col">Description</th>
+				<th scope="col">Position</th>
+				<th scope="col">Image</th>
+				<th scope="col">Delete Status</th>
+				<th scope="col">Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (Member member in Model)
+			{
+				<tr>
+					<th scope="row">@member.Id</th>
+					<td>@member.Name</td>
+					<td>@member.Surname</td>
+					<td>@member.Description</td>
+					<td>@member.Position.Name</td>
+					<td>
+						<img height="60px" weight="60px" src="~/uploads/members/@member.ImageUrl"/>
+					</td>
+
+					<td>
+						@if (!member.IsDeleted)
+						{
+							<span class="text-success">Active</span>
+						}
+						else
+						{
+							<span class="text-danger">Inactive</span>
+						}
+					</td>
+					<td>
+						@if (!member.IsDeleted)
+						{
+							<form asp-controller="Member" asp-action="Delete" asp-route-id="@member.Id">
+								<button class="btn btn-danger">Delete</button>
+							</form>
+						}
+						else
+						{
+							<form asp-controller="Member" asp-action="Restore" asp-route-id="@member.Id">
+								<button class="btn btn-success">Restore</button>
+							</form>
+						}
+					</td>
+					<td>
+						<a class="btn btn-warning" asp-controller="Member" asp-action="Update" asp-route-id="@member.Id">Update</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+	</table>
+</div>

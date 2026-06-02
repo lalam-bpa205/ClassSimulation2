@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
       "Azure.Core/1.38.0": {
@@ -4177,23 +4177,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\novbe2\\.nuget\\packages\\": {},
+    "C:\\Users\\Lale\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\ClassSimulation2.csproj",
+      "projectUniqueName": "C:\\Users\\Lale\\OneDrive\\Masaüstü\\ClassSimulation2\\ClassSimulation2\\ClassSimulation2.csproj",
       "projectName": "ClassSimulation2",
-      "projectPath": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\ClassSimulation2.csproj",
-      "packagesPath": "C:\\Users\\novbe2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\novbe2\\source\\repos\\ClassSimulation2\\obj\\",
+      "projectPath": "C:\\Users\\Lale\\OneDrive\\Masaüstü\\ClassSimulation2\\ClassSimulation2\\ClassSimulation2.csproj",
+      "packagesPath": "C:\\Users\\Lale\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lale\\OneDrive\\Masaüstü\\ClassSimulation2\\ClassSimulation2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\novbe2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lale\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4202,10 +4202,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -4220,10 +4222,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.100"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
@@ -4264,7 +4267,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,6 +1,6 @@
 ﻿@model List<Position>
 <div>
-	<a class="text-primary" asp-controller="Position" asp-action="Create">Create</a>
+	<a class="btn btn-primary" asp-controller="Position" asp-action="Create">Create</a>
 	<table class="table">
 		<thead>
 			<tr>
@@ -41,7 +41,7 @@
 						}
 					</td>
 					<td>
-						<a class="btn btn-warning" asp-controller="Position" asp-action="Update" asp-route-id="@position.Id"></a>
+						<a class="btn btn-warning" asp-controller="Position" asp-action="Update" asp-route-id="@position.Id">Update</a>
 					</td>
 				</tr>
 			}
